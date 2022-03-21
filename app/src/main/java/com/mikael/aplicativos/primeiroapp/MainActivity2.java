@@ -5,17 +5,33 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.widget.TextView;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+import java.math.BigDecimal;
+
+public class MainActivity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+
+        Intent intent = getIntent();
+
+        /*String nome = intent.getStringExtra("nome");
+        int idade = intent.getIntExtra("idade", -1);
+
+        String msg = String.format("Nome: %s\n Idade: %d", nome, idade);
+        */
+
+        Pessoa pessoa = (Pessoa) intent.getSerializableExtra("pessoa");
+
+        String msg = String.format("Welcome %s!", pessoa.getNome(), pessoa.getSenha());
+
+        Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
         Log.d("ciclo", getClassName() + ".onCreate() chamado");
+
     }
+
 
     @Override
     protected void onStart() {
@@ -56,24 +72,5 @@ public class MainActivity extends AppCompatActivity {
     private String getClassName() {
         String nomeClass = getClass().getName();
         return nomeClass.substring(nomeClass.lastIndexOf("."));
-    }
-
-    public void onClickBtnEnviar(View view) {
-        Intent intent = new Intent(getBaseContext(), MainActivity2.class);
-
-       /* intent.putExtra("nome", "Ana Maria");
-        intent.putExtra("idade", 25);*/
-
-//        Pessoa pessoa2 = new Pessoa();
-
-        TextView txtNome = findViewById(R.id.editText);
-        TextView txtIdade = findViewById(R.id.editText2);
-
-        String nome = txtNome.getText().toString();
-        String senha = txtIdade.getText().toString();
-
-        Pessoa pessoa = new Pessoa(nome, senha);
-        intent.putExtra("pessoa", pessoa);
-        startActivity(intent);
     }
 }
