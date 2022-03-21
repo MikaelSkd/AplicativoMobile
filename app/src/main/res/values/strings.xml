@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">Primeiro App</string>
-    <string name="enviar">Enviar</string>
+    <string name="app_name">AppAula5-2</string>
+    <string name="txt_btn_selecionar">Selecionar um estado</string>
+    <string-array name="estados">
+        <item>Espirito Santo</item>
+        <item>Minas Gerais</item>
+        <item>Rio de Janeiro</item>
+        <item>São Paulo</item>
+    </string-array>
 </resources>
