@@ -1,11 +1,11 @@
 package com.mikael.aplicativos.primeiroapp;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
@@ -36,6 +36,11 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra(TelaEstadosActivity.EXTRA_ESTADO, estado);
             startActivityForResult(intent, REQUISICAO_ESTADO);
         });
+
+        if (savedInstanceState != null){
+            estado = savedInstanceState.getString(ESTADO_SELECIONADO);
+            btnSelecionar.setText(estado);
+        }
     }
 
     @Override
@@ -47,5 +52,11 @@ public class MainActivity extends AppCompatActivity {
                 btnSelecionar.setText(estado);
             }
         }
+    }
+
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString(ESTADO_SELECIONADO, estado);
     }
 }
