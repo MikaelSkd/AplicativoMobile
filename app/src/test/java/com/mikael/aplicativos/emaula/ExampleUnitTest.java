@@ -1,4 +1,4 @@
-package com.mikael.aplicativos.primeiroapp;
+package com.mikael.aplicativos.emaula;
 
 import org.junit.Test;
 

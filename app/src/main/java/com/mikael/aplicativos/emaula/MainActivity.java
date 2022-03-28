@@ -1,10 +1,11 @@
-package com.mikael.aplicativos.primeiroapp;
+package com.mikael.aplicativos.emaula;
 
 
-import android.app.ListActivity;
 import android.os.Bundle;
 
-public class MainActivity extends ListActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
