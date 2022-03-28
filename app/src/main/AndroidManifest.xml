@@ -20,4 +20,6 @@
         </activity>
     </application>
 
+    <!-- Permissão para realizar uma chamda telefonica-->
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
 </manifest>

@@ -1,15 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AppAula5-2</string>
+    <string name="app_name">AppAula6</string>
+    <string name="acao_nao_suportada">acao nao suportada</string>
+    <string name="nao_permitido">Ação não permitida!</string>
     <string-array name="acoes">
         <item>Navegador</item>
         <item>Discador de Telefone</item>
-        <item>Chamada Telefônica</item>
+        <item>Teste Discador</item>
         <item>Mapa</item>
         <item>Contatos</item>
         <item>SMS</item>
         <item>Compartilhamento</item>
         <item>Alarme</item>
-        <item>Busca na web</item>
-        <ítem>Confirgurações</ítem>
+        <item></item>
     </string-array>
 </resources>
