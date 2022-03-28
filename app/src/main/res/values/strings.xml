@@ -6,12 +6,14 @@
     <string-array name="acoes">
         <item>Navegador</item>
         <item>Discador de Telefone</item>
-        <item>Teste Discador</item>
+        <item>Chamada Telefonica</item>
         <item>Mapa</item>
         <item>Contatos</item>
         <item>SMS</item>
         <item>Compartilhamento</item>
         <item>Alarme</item>
+        <item>Busca na Web</item>
+        <item>Configurações</item>
         <item></item>
     </string-array>
 </resources>
