@@ -1,10 +1,15 @@
 <resources>
     <string name="app_name">AppAula5-2</string>
-    <string name="txt_btn_selecionar">Selecionar um estado</string>
-    <string-array name="estados">
-        <item>Espirito Santo</item>
-        <item>Minas Gerais</item>
-        <item>Rio de Janeiro</item>
-        <item>São Paulo</item>
+    <string-array name="acoes">
+        <item>Navegador</item>
+        <item>Discador de Telefone</item>
+        <item>Chamada Telefônica</item>
+        <item>Mapa</item>
+        <item>Contatos</item>
+        <item>SMS</item>
+        <item>Compartilhamento</item>
+        <item>Alarme</item>
+        <item>Busca na web</item>
+        <ítem>Confirgurações</ítem>
     </string-array>
 </resources>
