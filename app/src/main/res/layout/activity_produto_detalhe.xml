@@ -39,10 +39,46 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Comprar"
-            android:background="@color/colorAccent"
-            android:textColor="@android:color/white"/>
+            android:text="@string/produto_detalhe_btn_comprar"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/produto_detalhe_btn_comprar"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/produto_detalhe_txt_descricao"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pinoquio, santanta, gravida de taubate, dicionario, coco ralado"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:id="@+id/produto_detalhe_txt_descricao"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comentários"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gustavo: Ain que delicia"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:textAppearance="@android:style/TextAppearance.Small"/>
 
     </LinearLayout>
 </ScrollView>
