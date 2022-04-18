@@ -52,9 +52,9 @@ public class MainActivity extends AppCompatActivity {
                     break;
 
                 case R.id.nav_account:
-                    Toast.makeText(MainActivity.this, "`Minha Conta", Toast.LENGTH_SHORT).show();
-//                    intent = new Intent(MainActivity.this, MainActivity.class);
-//                    startActivity(intent);
+//                    Toast.makeText(MainActivity.this, "`Minha Conta", Toast.LENGTH_SHORT).show();
+                    intent = new Intent(MainActivity.this, RegisterUserActivity.class);
+                    startActivity(intent);
                     break;
 
                 case R.id.nav_categoria:

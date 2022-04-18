@@ -10,9 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EmAula">
         <activity
+            android:name=".RegisterUserActivity"
+            android:exported="false" />
+        <activity
             android:name=".ProductDetailActivity"
             android:exported="false" />
-
         <activity
             android:name=".SplashActivity"
             android:exported="true">
@@ -24,7 +26,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

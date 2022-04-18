@@ -2,17 +2,26 @@
 
     <string name="app_name">Loja Virtual Atlética</string>
 
-<!--Tela Produto Detalhe   -->
+    <!--Tela Produto Detalhe   -->
     <string name="produto_detalhe_btn_comprar">Comprar</string>
     <string name="produto_detalhe_txt_descricao">Descrição</string>
 
-<!--Menu Drawer    -->
+    <!--Menu Drawer    -->
     <string name="menu_drawe_sair">Sair</string>
     <string name="menu_drawe_meu_carrinho">Meu Carrinho</string>
     <string name="menu_drawe_minhas_compras">Minhas Compras</string>
     <string name="menu_categorias">Categorias</string>
     <string name="menu_drawe_minha_conta">Minha Conta</string>
     <string name="menu_drawe_home">Home</string>
+
+    <!--Tela principal-->
     <string name="toogle_open">Open</string>
     <string name="toogle_close">Close</string>
+
+    <!--Tela usuário cadastro-->
+    <string name="usuario_cadastro_nome">Nome</string>
+    <string name="usuario_cadastro_email">Email</string>
+    <string name="usuario_cadastro_senha">Senha</string>
+    <string name="usuario_cadastro_btn_cadastrar">Cadastrar</string>
+    <string name="titulo_tela_cadastro">Cadastro de Usuário</string>
 </resources>
