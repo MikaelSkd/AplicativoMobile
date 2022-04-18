@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
     private TextView txtTitulo;
+    private TextView txtLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
                 case R.id.nav_account:
 //                    Toast.makeText(MainActivity.this, "`Minha Conta", Toast.LENGTH_SHORT).show();
-                    intent = new Intent(MainActivity.this, RegisterUserActivity.class);
+                    intent = new Intent(MainActivity.this, UserProfileActivity.class);
                     startActivity(intent);
                     break;
 
@@ -91,7 +92,14 @@ public class MainActivity extends AppCompatActivity {
 
         produtoItem = findViewById(R.id.ll_produto_item);
         produtoItem.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, ProductDetailActivity.class);
+            Intent intent = new Intent(MainActivity.this,
+                    ProductDetailActivity.class);
+            startActivity(intent);
+        });
+
+        txtLogin = navigationView.getHeaderView(0).findViewById(R.id.header_profile_name);
+        txtLogin.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, UserLoginActivity.class);
             startActivity(intent);
         });
     }

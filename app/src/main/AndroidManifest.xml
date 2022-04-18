@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EmAula">
         <activity
+            android:name=".UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserLoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterUserActivity"
             android:exported="false" />
         <activity

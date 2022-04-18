@@ -6,7 +6,8 @@ import androidx.appcompat.widget.Toolbar;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class RegisterUserActivity extends AppCompatActivity {
+public class UserProfileActivity extends AppCompatActivity {
+
 
     private Toolbar toolbar;
     private TextView textView;
@@ -14,7 +15,7 @@ public class RegisterUserActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register_user);
+        setContentView(R.layout.activity_user_profile);
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -23,7 +24,7 @@ public class RegisterUserActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         textView = findViewById(R.id.toolbar_titulo);
-        textView.setText(R.string.titulo_tela_cadastro);
+        textView.setText(R.string.usuario_login_titulo);
     }
 
     @Override

@@ -24,4 +24,27 @@
     <string name="usuario_cadastro_senha">Senha</string>
     <string name="usuario_cadastro_btn_cadastrar">Cadastrar</string>
     <string name="titulo_tela_cadastro">Cadastro de Usuário</string>
+
+    <!--Tela login-->
+    <string name="usuario_login_entrar">Entrar</string>
+    <string name="usuario_login_titulo">Login</string>
+
+
+<!--    Tela Perfil-->
+    <string name="usuario_perfil_sobrenome">Sobrenome</string>
+    <string name="usuario_perfil_logradouro">Logradouro</string>
+    <string name="usuario_perfil_numero">Número</string>
+    <string name="usuario_perfil_complemento">Complemento</string>
+    <string name="usuario_perfil_bairro">Bairro</string>
+    <string name="usuario_perfil_cidade">Cidade</string>
+    <string name="usuario_perfil_cep">CEP</string>
+    <string name="usuario_perfil_btn_atualizar">ATUALIZAR</string>
+
+    <string-array name="uf">
+        <item>Acre (AC)</item>
+        <item>Alagoas (AL)</item>
+        <item>Amapá (AP)</item>
+
+    </string-array>
+
 </resources>
