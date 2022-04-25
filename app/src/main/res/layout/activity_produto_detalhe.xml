@@ -28,13 +28,13 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/img_produto_detalhe"
-                android:layout_width="match_parent"
-                android:layout_height="320dp"
-                android:adjustViewBounds="true"
-                android:scaleType="centerCrop"
-                android:src="@drawable/camiseta1" />
+<!--            <ImageView-->
+<!--                android:id="@+id/img_produto_detalhe"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="320dp"-->
+<!--                android:adjustViewBounds="true"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/camiseta1" />-->
 
             <TextView
                 android:id="@+id/txt_titulo_produto_detalhe"

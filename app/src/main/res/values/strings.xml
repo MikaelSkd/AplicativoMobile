@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">Loja Virtual Atlética</string>
+    <string name="app_name">Spring Shopping</string>
 
     <!--Tela Produto Detalhe   -->
     <string name="produto_detalhe_btn_comprar">Comprar</string>
@@ -32,19 +32,13 @@
 
 <!--    Tela Perfil-->
     <string name="usuario_perfil_sobrenome">Sobrenome</string>
-    <string name="usuario_perfil_logradouro">Logradouro</string>
-    <string name="usuario_perfil_numero">Número</string>
-    <string name="usuario_perfil_complemento">Complemento</string>
-    <string name="usuario_perfil_bairro">Bairro</string>
-    <string name="usuario_perfil_cidade">Cidade</string>
-    <string name="usuario_perfil_cep">CEP</string>
+    <string name="usuario_perfil_renda_familiar">Renda Familiar</string>
     <string name="usuario_perfil_btn_atualizar">ATUALIZAR</string>
 
     <string-array name="uf">
-        <item>Acre (AC)</item>
+        <item>São Paulo (AC)</item>
         <item>Alagoas (AL)</item>
         <item>Amapá (AP)</item>
-
     </string-array>
 
 </resources>
