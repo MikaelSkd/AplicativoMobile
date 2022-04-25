@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
-                android:text="Cerveja Stella Artois"
+                android:text="@string/venda_produtos_produtos"
                 android:textAppearance="@android:style/TextAppearance.Medium" />
 
             <TextView
@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
-                android:text="R$ 29,90"
+                android:text="@string/venda_produtos_preco"
                 android:textAppearance="@android:style/TextAppearance.Small" />
 
             <TextView
