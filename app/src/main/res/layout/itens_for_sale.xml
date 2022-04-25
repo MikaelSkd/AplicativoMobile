@@ -112,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
-                android:text="Bebidas para pessoas quem sabe beber"
+                android:text="Bebidas para pessoas que sabe beber, venda proibida para menores de 18 anos"
                 android:textAppearance="@android:style/TextAppearance.Small" />
 
             <TextView
