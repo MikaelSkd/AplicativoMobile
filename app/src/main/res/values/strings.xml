@@ -22,9 +22,10 @@
 
     <!--Tela login-->
     <string name="usuario_login_entrar">Entrar</string>
-    <string name="usuario_login_titulo">Bem vindo!</string>
+    <string name="usuario_login_titulo">Login</string>
 
     <!--    Tela Perfil-->
+    <string name="usuario_perfil_titulo">Bem vindo!</string>
     <string name="usuario_perfil_sobrenome">Sobrenome</string>
     <string name="usuario_perfil_renda_familiar">Renda Familiar</string>
     <string name="usuario_perfil_numero_dependentes">Número Dependentes</string>
@@ -53,13 +54,16 @@
         <item>Pacote</item>
     </string-array>
 
-<!--    Tela Compra Produto-->
-    <string name="compra_produto_btn_comprar">Comprar</string>
-    <string name="compra_produto_txt_descricao">Descrição</string>
-    <string name="compra_produto_quantidade">Quantidade</string>
-
 <!--    Tela Cadastrar categoria-->
     <string name="cadastrar_categoria_btn_cadastrar">Cadastrar</string>
     <string name="cadastrar_categoria_nome_categoria">Nome Categoria</string>
+
+<!--    Tela Venda Produtos-->
+    <string name="venda_produtos_titulo">Produto</string>
+    <string name="venda_produtos_produtos">Cerveja Stella Artois</string>
+    <string name="venda_produtos_preco">R$ 29,90</string>
+    <string name="compra_produto_btn_comprar">Comprar</string>
+    <string name="compra_produto_txt_descricao">Descrição</string>
+    <string name="compra_produto_quantidade">Quantidade</string>
 
 </resources>

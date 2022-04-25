@@ -24,7 +24,7 @@ public class UserProfileActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         textView = findViewById(R.id.toolbar_titulo);
-        textView.setText(R.string.usuario_login_titulo);
+        textView.setText(R.string.usuario_perfil_titulo);
     }
 
     @Override

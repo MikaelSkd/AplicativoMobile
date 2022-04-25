@@ -14,7 +14,7 @@ public class ItemsForSaleActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_produto_detalhe);
+        setContentView(R.layout.itens_for_sale);
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -23,7 +23,7 @@ public class ItemsForSaleActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         textView = findViewById(R.id.toolbar_titulo);
-        textView.setText("Titulo do Produto");
+        textView.setText(R.string.venda_produtos_titulo);
     }
 
     @Override
