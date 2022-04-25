@@ -24,7 +24,6 @@ public class RegisterCategoryActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.toolbar_titulo);
         textView.setText("Cadastro Categorias");
-
     }
 
     @Override

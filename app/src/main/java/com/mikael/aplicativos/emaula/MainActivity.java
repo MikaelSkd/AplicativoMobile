@@ -53,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
                     break;
 
                 case R.id.nav_account:
-                    Toast.makeText(MainActivity.this, "`Minha Conta", Toast.LENGTH_SHORT).show();
                     intent = new Intent(MainActivity.this, UserProfileActivity.class);
                     startActivity(intent);
                     break;
