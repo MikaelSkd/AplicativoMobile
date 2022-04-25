@@ -32,7 +32,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/txt_edit_nome"
-            android:inputType="textCapWords|textPersonName"/>
+            android:inputType="textCapWords|text"/>
     </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="@dimen/btn_input_layout"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_categoria_cadastro"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/cadastrar_categoria_btn_cadastrar"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
