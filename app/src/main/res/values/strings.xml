@@ -6,11 +6,11 @@
     <string name="produto_detalhe_btn_comprar">Comprar</string>
     <string name="produto_detalhe_txt_descricao">Descrição</string>
 
-    <!--Menu Drawer    -->
+    <!--Menu Drawer -->
     <string name="menu_drawe_sair">Sair</string>
-    <string name="menu_drawe_meu_carrinho">Meu Carrinho</string>
+    <string name="menu_cadastro_itens_compra">Cadastro Itens</string>
     <string name="menu_drawe_minhas_compras">Minhas Compras</string>
-    <string name="menu_categorias">Categorias</string>
+    <string name="menu_cadastro_categorias">Cadastro Categorias</string>
     <string name="menu_drawe_minha_conta">Minha Conta</string>
     <string name="menu_drawe_home">Home</string>
 
@@ -18,7 +18,7 @@
     <string name="toogle_open">Open</string>
     <string name="toogle_close">Close</string>
 
-    <!--Tela usuário cadastro-->
+    <!--Tela usuário cadastro Perfil-->
     <string name="usuario_cadastro_nome">Nome</string>
     <string name="usuario_cadastro_email">Email</string>
     <string name="usuario_cadastro_senha">Senha</string>
@@ -30,10 +30,18 @@
     <string name="usuario_login_titulo">Login</string>
 
 
-<!--    Tela Perfil-->
+    <!--    Tela Perfil-->
     <string name="usuario_perfil_sobrenome">Sobrenome</string>
     <string name="usuario_perfil_renda_familiar">Renda Familiar</string>
+    <string name="usuario_perfil_numero_dependentes">Número Dependentes</string>
     <string name="usuario_perfil_btn_atualizar">ATUALIZAR</string>
+
+<!--    Tela Item Cadastro-->
+    <string name="cadastro_produto_nome">Nome</string>
+    <string name="cadastro_produto_quantidade">Quantidade</string>
+    <string name="cadastro_produto_unidade">Unidade</string>
+    <string name="cadastro_produto_preco">Preço</string>
+    <string name="cadastro_produto_categoria">Categoria</string>
 
     <string-array name="uf">
         <item>São Paulo (AC)</item>

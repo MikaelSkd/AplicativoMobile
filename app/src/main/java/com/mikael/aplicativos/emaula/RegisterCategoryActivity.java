@@ -6,7 +6,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class ProductDetailActivity extends AppCompatActivity {
+public class RegisterCategoryActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
     private TextView textView;
@@ -14,7 +14,7 @@ public class ProductDetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_produto_detalhe);
+        setContentView(R.layout.activity_register_category);
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -23,7 +23,8 @@ public class ProductDetailActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         textView = findViewById(R.id.toolbar_titulo);
-        textView.setText("Titulo do Produto");
+        textView.setText("Cadastro Categorias");
+
     }
 
     @Override

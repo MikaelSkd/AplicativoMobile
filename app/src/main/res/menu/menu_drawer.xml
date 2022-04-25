@@ -11,16 +11,12 @@
         android:title="@string/menu_drawe_minha_conta"
         android:icon="@drawable/ic_menu_user_black"/>
 
-    <item android:id="@+id/nav_categoria"
-        android:title="@string/menu_categorias"
+    <item android:id="@+id/nav_cadastro_categorias"
+        android:title="@string/menu_cadastro_categorias"
         android:icon="@drawable/ic_menu_category_black"/>
 
-    <item android:id="@+id/nav_pedidos"
-        android:title="@string/menu_drawe_minhas_compras"
-        android:icon="@drawable/ic_menu_order_black"/>
-
-    <item android:id="@+id/nav_carrinho"
-        android:title="@string/menu_drawe_meu_carrinho"
+    <item android:id="@+id/nav_cadastro_itens"
+        android:title="@string/menu_cadastro_itens_compra"
         android:icon="@drawable/ic_menu_cart"/>
 
     <item android:id="@+id/nav_logout"

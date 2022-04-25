@@ -10,22 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EmAula">
         <activity
+            android:name=".RegisterItemsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterCategoryActivity"
+            android:exported="false" />
+        <activity
             android:name=".UserProfileActivity"
             android:exported="false" />
         <activity
             android:name=".UserLoginActivity"
             android:exported="false" />
-<!--        <activity-->
-<!--            android:name=".RegisterUserActivity"-->
-<!--            android:exported="false" />-->
-<!--        <activity-->
-<!--            android:name=".ProductDetailActivity"-->
-<!--            android:exported="false" />-->
+        <activity
+            android:name=".RegisterUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductDetailActivity"
+            android:exported="false" />
         <activity
             android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

@@ -53,35 +53,26 @@ public class MainActivity extends AppCompatActivity {
                     break;
 
                 case R.id.nav_account:
-//                    Toast.makeText(MainActivity.this, "`Minha Conta", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "`Minha Conta", Toast.LENGTH_SHORT).show();
                     intent = new Intent(MainActivity.this, UserProfileActivity.class);
                     startActivity(intent);
                     break;
-//
-//                case R.id.nav_categoria:
-//                    Toast.makeText(MainActivity.this, "`Categorias", Toast.LENGTH_SHORT).show();
-////                    intent = new Intent(MainActivity.this, MainActivity.class);
-////                    startActivity(intent);
-//                    break;
-//
-//                case R.id.nav_pedidos:
-//                    Toast.makeText(MainActivity.this, "`Meus Pedidos", Toast.LENGTH_SHORT).show();
-////                    intent = new Intent(MainActivity.this, MainActivity.class);
-////                    startActivity(intent);
-//                    break;
-//
-//                case R.id.nav_carrinho:
-//                    Toast.makeText(MainActivity.this, "`Meu Carrinho", Toast.LENGTH_SHORT).show();
-////                    intent = new Intent(MainActivity.this, MainActivity.class);
-////                    startActivity(intent);
-//                    break;
-//
-//                case R.id.nav_logout:
-//                    Toast.makeText(MainActivity.this, "`Sair", Toast.LENGTH_SHORT).show();
-////                    intent = new Intent(MainActivity.this, MainActivity.class);
-////                    startActivity(intent);
-//                    break;
-//
+
+                case R.id.nav_cadastro_categorias:
+                    intent = new Intent(MainActivity.this, RegisterCategoryActivity.class);
+                    startActivity(intent);
+                    break;
+
+                case R.id.nav_cadastro_itens:
+                    intent = new Intent(MainActivity.this, RegisterItemsActivity.class);
+                    startActivity(intent);
+                    break;
+
+                case R.id.nav_logout:
+                    intent = new Intent(MainActivity.this, UserLoginActivity.class);
+                    startActivity(intent);
+                    break;
+
                 default:
                     Toast.makeText(MainActivity.this, "Erro, tente novamente!", Toast.LENGTH_SHORT).show();
                     break;
