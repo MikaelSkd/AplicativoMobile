@@ -25,7 +25,7 @@
             android:name=".RegisterUserActivity"
             android:exported="false" />
         <activity
-            android:name=".ProductDetailActivity"
+            android:name=".ItemsForSaleActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"

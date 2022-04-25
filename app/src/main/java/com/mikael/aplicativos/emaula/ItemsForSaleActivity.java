@@ -6,7 +6,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class ProductDetailActivity extends AppCompatActivity {
+public class ItemsForSaleActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
     private TextView textView;

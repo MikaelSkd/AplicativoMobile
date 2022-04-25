@@ -133,7 +133,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/txt_edit_perfil_numero_membros"
-                        android:inputType="textCapWords|textPersonName"/>
+                        android:inputType="number"/>
                 </com.google.android.material.textfield.TextInputLayout>
 
             </LinearLayout>

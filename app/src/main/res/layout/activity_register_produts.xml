@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterUserActivity"
+    tools:context=".RegisterItemsActivity"
     android:orientation="vertical">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -58,22 +58,16 @@
                 android:inputType="number"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
+        <Spinner
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:id="@+id/txt_produto_unidade"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_marginTop="8dp"
-            android:layout_marginRight="8dp"
-            android:hint="@string/cadastro_produto_unidade">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/txt_edit_produto_unidade"
-                android:inputType="textCapWords|textPersonName"/>
-        </com.google.android.material.textfield.TextInputLayout>
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"
+            android:id="@+id/unidade"
+            android:entries="@array/unidade"
+            style="@style/Widget.AppCompat.Spinner.DropDown.ActionBar"/>
 
     </LinearLayout>
 
@@ -100,22 +94,16 @@
                 android:inputType="numberDecimal"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
+        <Spinner
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:id="@+id/txt_produto_categoria"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_marginTop="8dp"
-            android:layout_marginRight="8dp"
-            android:hint="@string/cadastro_produto_categoria">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/txt_edit_produto_categoria"
-                android:inputType="textCapWords|textPersonName"/>
-        </com.google.android.material.textfield.TextInputLayout>
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"
+            android:id="@+id/categorias"
+            android:entries="@array/categorias"
+            style="@style/Widget.AppCompat.Spinner.DropDown.ActionBar"/>
 
     </LinearLayout>
 

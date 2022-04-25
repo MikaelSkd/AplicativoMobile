@@ -3,8 +3,7 @@
     <string name="app_name">Spring Shopping</string>
 
     <!--Tela Produto Detalhe   -->
-    <string name="produto_detalhe_btn_comprar">Comprar</string>
-    <string name="produto_detalhe_txt_descricao">Descrição</string>
+
 
     <!--Menu Drawer -->
     <string name="menu_drawe_sair">Sair</string>
@@ -27,7 +26,7 @@
 
     <!--Tela login-->
     <string name="usuario_login_entrar">Entrar</string>
-    <string name="usuario_login_titulo">Login</string>
+    <string name="usuario_login_titulo">Bem vindo!</string>
 
 
     <!--    Tela Perfil-->
@@ -43,10 +42,28 @@
     <string name="cadastro_produto_preco">Preço</string>
     <string name="cadastro_produto_categoria">Categoria</string>
 
-    <string-array name="uf">
-        <item>São Paulo (AC)</item>
-        <item>Alagoas (AL)</item>
-        <item>Amapá (AP)</item>
+<!--    Tela Compra Produto-->
+    <string name="compra_produto_btn_comprar">Comprar</string>
+    <string name="compra_produto_txt_descricao">Descrição</string>
+    <string name="compra_produto_quantidade">Quantidade</string>
+    <string name="cadastrar_categoria_nome_categoria">Nome Categoria</string>
+
+    <string-array name="categorias">
+        <item>Bebidas</item>
+        <item>Carnes</item>
+        <item>Frios</item>
+        <item>Frutas/Verduras</item>
+        <item>Limpeza</item>
+        <item>Higiene Pessoal</item>
+    </string-array>
+
+    <string-array name="unidade">
+        <item>Unidade</item>
+        <item>Dúzia</item>
+        <item>Litro</item>
+        <item>Kg</item>
+        <item>Caixa</item>
+        <item>Pacote</item>
     </string-array>
 
 </resources>

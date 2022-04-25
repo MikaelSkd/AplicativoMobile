@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         produtoItem = findViewById(R.id.ll_produto_item);
         produtoItem.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this,
-                    ProductDetailActivity.class);
+                    ItemsForSaleActivity.class);
             startActivity(intent);
         });
 
