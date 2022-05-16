@@ -39,6 +39,7 @@ dependencies {
     annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel:2.2.0'
     compileOnly "org.projectlombok:lombok:1.18.24"
+    implementation "androidx.preference:preference:1.2.0"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
