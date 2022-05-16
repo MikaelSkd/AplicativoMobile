@@ -17,7 +17,12 @@
         app:title="Ajuda">
         <Preference
             app:key="feedback"
-            app:summary="Avise de problemas"/>
+            app:summary="Avise de problemastécnicos ou envie sugestões de melhorias."
+            app:title="Entrar em contato">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.arq.ifsp.edu.br/fale-conosco"/>
+        </Preference>
     </PreferenceCategory>
 
 </androidx.preference.PreferenceScreen>
