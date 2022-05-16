@@ -1,12 +1,16 @@
-package com.mikael.aplicativos.emaula;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
+package com.mikael.aplicativos.emaula.view.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.lifecycle.ViewModelProvider;
+
+import com.mikael.aplicativos.emaula.R;
+import com.mikael.aplicativos.emaula.view.model.UserViewModel;
 
 public class UserLoginActivity extends AppCompatActivity {
 
@@ -14,10 +18,15 @@ public class UserLoginActivity extends AppCompatActivity {
     private TextView textView;
     private Button btnCadastrar;
 
+    private UserViewModel userViewModel;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_login);
+
+        userViewModel= new ViewModelProvider(this).get(UserViewModel.class);
+
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

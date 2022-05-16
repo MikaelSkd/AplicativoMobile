@@ -11,7 +11,7 @@
         android:id="@+id/toolbar_titulo"
         android:layout_gravity="center"
         android:textColor="@android:color/white"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title"/>
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
 
 
 </androidx.appcompat.widget.Toolbar>

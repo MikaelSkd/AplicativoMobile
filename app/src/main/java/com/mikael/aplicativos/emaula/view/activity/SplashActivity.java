@@ -1,10 +1,12 @@
-package com.mikael.aplicativos.emaula;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.mikael.aplicativos.emaula.view.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.mikael.aplicativos.emaula.R;
 
 public class SplashActivity extends AppCompatActivity {
 

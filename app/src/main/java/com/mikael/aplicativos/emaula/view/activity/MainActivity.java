@@ -1,4 +1,4 @@
-package com.mikael.aplicativos.emaula;
+package com.mikael.aplicativos.emaula.view.activity;
 
 
 import android.content.Intent;
@@ -14,6 +14,8 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
+import com.mikael.aplicativos.emaula.R;
+import com.mikael.aplicativos.emaula.model.entity.UserEntity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(item -> {
             Intent intent = null;
-            switch (item.getItemId()){
+            switch (item.getItemId()) {
                 case R.id.nav_home:
                     intent = new Intent(MainActivity.this, MainActivity.class);
                     startActivity(intent);
@@ -106,9 +108,13 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        if (drawerLayout.isDrawerOpen(GravityCompat.START)){
+        if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
             drawerLayout.closeDrawer(GravityCompat.START);
-        }else
+        } else
             super.onBackPressed();
+    }
+
+    public void test1() {
+        UserEntity a = new UserEntity();
     }
 }

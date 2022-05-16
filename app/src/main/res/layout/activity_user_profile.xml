@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserProfileActivity"
+    tools:context=".view.activity.UserProfileActivity"
     android:orientation="vertical"
     android:gravity="center">
 
@@ -34,7 +33,8 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:id="@+id/iv_perfil_image"
-                android:src="@drawable/profile_image"/>
+                android:src="@drawable/profile_image" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/txt_edit_perfil_nome"
-                        android:inputType="textCapWords|textPersonName"/>
+                        android:inputType="textCapWords|textPersonName" />
                 </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -73,7 +73,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/txt_edit_perfil_sobrenome"
-                        android:inputType="textCapWords|textPersonName"/>
+                        android:inputType="textCapWords|textPersonName" />
                 </com.google.android.material.textfield.TextInputLayout>
 
             </LinearLayout>
@@ -92,7 +92,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/txt_edit_perfil_email"
-                    android:inputType="textEmailAddress"/>
+                    android:inputType="textEmailAddress" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
@@ -103,7 +103,7 @@
                 android:layout_marginRight="8dp"
                 android:text="Endereço"
                 android:gravity="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -125,7 +125,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/txt_edit_perfil_logradouro"
-                        android:inputType="textCapWords"/>
+                        android:inputType="textCapWords" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -143,7 +143,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/txt_edit_perfil_numero"
-                        android:inputType="number"/>
+                        android:inputType="number" />
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
 
@@ -167,7 +167,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/txt_edit_perfil_complemento"
-                        android:inputType="textCapWords"/>
+                        android:inputType="textCapWords" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -184,7 +184,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/txt_edit_perfil_bairro"
-                        android:inputType="textCapWords"/>
+                        android:inputType="textCapWords" />
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
 
@@ -203,7 +203,7 @@
                     android:layout_marginRight="4dp"
                     android:id="@+id/sp_uf"
                     android:entries="@array/uf"
-                    style="@style/Widget.AppCompat.Spinner.DropDown.ActionBar"/>
+                    style="@style/Widget.AppCompat.Spinner.DropDown.ActionBar" />
 
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -221,7 +221,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/txt_edit_perfil_cidade"
-                        android:inputType="textCapWords"/>
+                        android:inputType="textCapWords" />
                 </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -239,7 +239,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/txt_edit_perfil_cep"
-                        android:inputType="number"/>
+                        android:inputType="number" />
                 </com.google.android.material.textfield.TextInputLayout>
 
             </LinearLayout>
@@ -253,7 +253,7 @@
                 android:layout_marginLeft="8dp"
                 android:text="@string/usuario_perfil_btn_atualizar"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center" />
         </LinearLayout>
 
     </ScrollView>

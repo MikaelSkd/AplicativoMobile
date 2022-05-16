@@ -30,7 +30,7 @@
     <string name="usuario_login_titulo">Login</string>
 
 
-<!--    Tela Perfil-->
+    <!--    Tela Perfil-->
     <string name="usuario_perfil_sobrenome">Sobrenome</string>
     <string name="usuario_perfil_logradouro">Logradouro</string>
     <string name="usuario_perfil_numero">Número</string>

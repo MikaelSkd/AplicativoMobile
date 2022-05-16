@@ -30,7 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                tools:context=".MainActivity">
+                tools:context=".view.activity.MainActivity">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -128,5 +128,5 @@
         </androidx.core.widget.NestedScrollView>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-    <include layout="@layout/menu_navigation_view"/>
+    <include layout="@layout/menu_navigation_view" />
 </androidx.drawerlayout.widget.DrawerLayout>
